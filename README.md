@@ -5,9 +5,9 @@ This VSCode extension will allow the C++ intellisense extension to work correctl
 ## Installation
 
 1. Build the package
-  - run `npm install -g npx`
-  - run `npx vsce package`
-  This will create a file name named `conan-intellisense-patch-0.0.1.vsix`.
+    - run `npm install -g npx`
+    - run `npx vsce package`
+    This will create a file name named `conan-intellisense-patch-0.0.1.vsix`.
 1. [Install](conan-intellisense-patch-0.0.1) the .vsix file.
 
 ## Workflow
