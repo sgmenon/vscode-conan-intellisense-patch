@@ -2,6 +2,14 @@
 
 This VSCode extension will allow the C++ intellisense extension to work correctly when a workspace contains a conanfile.txt or conanfile.py at the root level
 
+## Installation
+
+1. Build the package
+  - run `npm install -g npx`
+  - run `npx vsce package`
+  This will create a file name named `conan-intellisense-patch-0.0.1.vsix`.
+1. [Install](conan-intellisense-patch-0.0.1) the .vsix file.
+
 ## Workflow
 
 1. Open VSCode to the workspace where you have a project that uses CMake and Conan.
@@ -24,7 +32,7 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
-Initial release 
+Initial unstable version...
 
