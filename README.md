@@ -17,6 +17,8 @@ Make sure you have `node.js` version >v12, and npm version >v6
     npm install -g npm@latest
     ```
 
+### Build and install VSIX package
+
 1. Build the package
     - run `npm install`
     - run `npm install -g npx`
