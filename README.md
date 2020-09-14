@@ -2,9 +2,23 @@
 
 This VSCode extension will allow the C++ intellisense extension to work correctly when a workspace contains a conanfile.txt or conanfile.py at the root level
 
-## Installation
+## Installation 
+
+Make sure you have `node.js` version >v12, and npm version >v6
+
+### For Debian/Ubuntu
+- Install `node.js` using [these steps](https://github.com/nodesource/distributions/blob/master/README.md#debinstall).
+- Install npm
+
+    ```sh
+    # get npm
+    sudo apt-get install npm 
+    # upgrade to the latest version
+    npm install -g npm@latest
+    ```
 
 1. Build the package
+    - run `npm install`
     - run `npm install -g npx`
     - run `npx vsce package`
     This will create a file name named `conan-intellisense-patch-0.0.1.vsix`.
