@@ -24,7 +24,7 @@ Make sure you have `node.js` version >v12, and npm version >v6
     - run `npm install -g npx`
     - run `npx vsce package`
     This will create a file name named `conan-intellisense-patch-0.0.1.vsix`.
-1. Install conan-intellisense-patch-0.0.1 the .vsix file.
+1. (Install)[https://docs.microsoft.com/en-us/visualstudio/ide/finding-and-using-visual-studio-extensions?view=vs-2019#find-and-install-extensions] the .vsix file.
 
 ## Workflow
 
